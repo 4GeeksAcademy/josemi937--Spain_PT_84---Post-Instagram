@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  background-color: rgb(6, 7, 7);
+  align-items: center;
+}
+.post {
+  display: flexbox;
+  margin-bottom: 125px;
+  margin-top: 125px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.post-header {
+  display: flex;
+  font-size: 175%;
+  background-color: white;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.html-icon {
+  font-size: 175%;
+  padding: 5px;
+  padding-top: 15px;
+}
+.user {
+  display: grid;
+  font-size: 75%;
+  padding-left: 10px;
+  flex-direction: column;
+  cursor: pointer;
+}
+.user:hover {
+  color: blue;
+}
+.options-icon {
+  padding-left: 70%;
+  font-size: 175%;
+  padding-top: 15px;
+}
+.options-icon:hover {
+  color: blue;
+}
+.post-img {
+  background-color: rgb(253, 252, 252);
+  margin-left: 250px;
+  margin-right: 250px;
+  height: 700px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.post-body {
+  background-color: rgb(248, 242, 242);
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 10px;
+}
+.post-icons {
+  display: flexbox;
+  font-size: 175%;
+}
+
+.heart-icon:hover {
+  color: red;
+}
+
+.message-icon:hover {
+  color: rgb(56, 21, 212);
+}
+
+.send-icon:hover {
+  color: rgb(56, 21, 212);
+}
+.save-icon {
+  padding-left: 80%;
+}
+.save-icon:hover {
+  color: rgb(56, 21, 212);
+}
